@@ -1,0 +1,50 @@
+{"input":"I'm defining permissions for a social media platform.\nRequirements:\n[\n  \"User can create a Post\",\n  \"User can edit their own Post\",\n  \"Admin can delete any Post\"\n]\n\nConvert this into Cedar (schema + policies)."}
+{"input":"I'm designing access control for a blogging system.\nRequirements:\n[\n  \"Author can publish their own Article\",\n  \"Editor can edit any Article\",\n  \"Reader can view published Articles\"\n]\n\nGenerate Cedar schema and policies."}
+{"input":"I need authorization rules for a photo sharing app.\nRequirements:\n[\n  \"User can view public Albums\",\n  \"User can view their own private Albums\",\n  \"Admin can delete any Album\"\n]\n\nTurn this into Cedar."}
+{"input":"I'm working on a video platform.\nRequirements:\n[\n  \"Creator can upload Videos\",\n  \"Creator can delete their own Videos\",\n  \"Subscriber can view subscribed Videos\"\n]\n\nProduce Cedar schema and policies."}
+{"input":"Define access for a forum system.\nRequirements:\n[\n  \"User can create Threads\",\n  \"User can reply to Threads\",\n  \"Moderator can delete any Thread\"\n]\n\nTranslate to Cedar."}
+{"input":"I'm building a messaging app.\nRequirements:\n[\n  \"User can send Messages\",\n  \"User can read Messages in their Conversations\",\n  \"Admin can delete any Message\"\n]\n\nGenerate Cedar."}
+{"input":"Authorization rules for a news publishing system.\nRequirements:\n[\n  \"Journalist can write Articles\",\n  \"Editor can approve Articles\",\n  \"Reader can view approved Articles\"\n]\n\nConvert to Cedar."}
+{"input":"I'm creating a wiki system.\nRequirements:\n[\n  \"Contributor can edit Pages\",\n  \"Reviewer can approve changes\",\n  \"Viewer can read approved Pages\"\n]\n\nGenerate Cedar schema and policies."}
+{"input":"Permissions for a podcast platform.\nRequirements:\n[\n  \"Host can upload Episodes\",\n  \"Host can delete their Episodes\",\n  \"Listener can stream Episodes\"\n]\n\nConvert into Cedar."}
+{"input":"Access control for a moderation dashboard.\nRequirements:\n[\n  \"Moderator can review Reports\",\n  \"Moderator can remove Content\",\n  \"Admin can assign Moderators\"\n]\n\nGenerate Cedar."}
+{"input":"I'm designing a CRM system.\nRequirements:\n[\n  \"SalesRep can view assigned Customers\",\n  \"Manager can view all Customers\",\n  \"Manager can update Customer records\"\n]\n\nProduce Cedar."}
+{"input":"Permissions for an HR system.\nRequirements:\n[\n  \"Employee can view their Profile\",\n  \"HR can edit any Employee Profile\",\n  \"Manager can view their team Profiles\"\n]\n\nConvert to Cedar."}
+{"input":"Access rules for a project management tool.\nRequirements:\n[\n  \"User can create Tasks\",\n  \"User can update assigned Tasks\",\n  \"Admin can delete any Task\"\n]\n\nGenerate Cedar."}
+{"input":"I'm building a document collaboration system.\nRequirements:\n[\n  \"User can view shared Documents\",\n  \"Owner can edit their Documents\",\n  \"Admin can delete any Document\"\n]\n\nProduce Cedar."}
+{"input":"Permissions for an expense system.\nRequirements:\n[\n  \"Employee can submit Expenses\",\n  \"Manager can approve Expenses\",\n  \"Finance can reimburse Expenses\"\n]\n\nGenerate Cedar."}
+{"input":"Authorization for a ticketing system.\nRequirements:\n[\n  \"User can create Tickets\",\n  \"Agent can resolve Tickets\",\n  \"Admin can assign Tickets\"\n]\n\nConvert to Cedar."}
+{"input":"Access control for a knowledge base.\nRequirements:\n[\n  \"User can view Articles\",\n  \"Editor can edit Articles\",\n  \"Admin can publish Articles\"\n]\n\nGenerate Cedar."}
+{"input":"I'm designing a time tracking system.\nRequirements:\n[\n  \"User can log TimeEntries\",\n  \"Manager can view team TimeEntries\",\n  \"Admin can delete any TimeEntry\"\n]\n\nProduce Cedar."}
+{"input":"Permissions for a SaaS admin dashboard.\nRequirements:\n[\n  \"TenantAdmin can manage Users\",\n  \"User can view their Tenant data\",\n  \"SuperAdmin can manage all Tenants\"\n]\n\nConvert to Cedar."}
+{"input":"Authorization rules for API key management.\nRequirements:\n[\n  \"User can create APIKeys\",\n  \"User can revoke their APIKeys\",\n  \"Admin can revoke any APIKey\"\n]\n\nGenerate Cedar."}
+{"input":"Access control for online banking.\nRequirements:\n[\n  \"User can view their Accounts\",\n  \"User can transfer between their Accounts\",\n  \"Admin can freeze any Account\"\n]\n\nGenerate Cedar."}
+{"input":"Permissions for an investment platform.\nRequirements:\n[\n  \"User can view their Portfolio\",\n  \"User can place Trades\",\n  \"Admin can suspend Accounts\"\n]\n\nConvert to Cedar."}
+{"input":"I'm building a payment system.\nRequirements:\n[\n  \"User can initiate Payments\",\n  \"System can process Payments\",\n  \"Admin can refund Payments\"\n]\n\nGenerate Cedar."}
+{"input":"Authorization for a loan system.\nRequirements:\n[\n  \"Applicant can submit LoanApplications\",\n  \"Officer can review Applications\",\n  \"Manager can approve Loans\"\n]\n\nProduce Cedar."}
+{"input":"Permissions for insurance claims.\nRequirements:\n[\n  \"Customer can submit Claims\",\n  \"Agent can review Claims\",\n  \"Supervisor can approve Claims\"\n]\n\nConvert to Cedar."}
+{"input":"Access control for billing system.\nRequirements:\n[\n  \"User can view Invoices\",\n  \"User can pay Invoices\",\n  \"Admin can void Invoices\"\n]\n\nGenerate Cedar."}
+{"input":"Fraud review system permissions.\nRequirements:\n[\n  \"Analyst can review Transactions\",\n  \"Analyst can flag Transactions\",\n  \"Manager can resolve Flags\"\n]\n\nGenerate Cedar."}
+{"input":"Crypto wallet permissions.\nRequirements:\n[\n  \"User can view Wallet\",\n  \"User can send Funds\",\n  \"Admin can lock Wallet\"\n]\n\nConvert to Cedar."}
+{"input":"Payroll system rules.\nRequirements:\n[\n  \"Employee can view Payslips\",\n  \"HR can process Payroll\",\n  \"Admin can adjust Salaries\"\n]\n\nGenerate Cedar."}
+{"input":"Tax filing system.\nRequirements:\n[\n  \"User can submit Returns\",\n  \"Auditor can review Returns\",\n  \"Admin can audit any Return\"\n]\n\nConvert to Cedar."}
+{"input":"EHR system permissions.\nRequirements:\n[\n  \"Doctor can view assigned PatientRecords\",\n  \"Doctor can update PatientRecords\",\n  \"Admin can access all Records\"\n]\n\nGenerate Cedar."}
+{"input":"Hospital system access control.\nRequirements:\n[\n  \"Nurse can view assigned Patients\",\n  \"Doctor can prescribe Medication\",\n  \"Admin can manage Staff\"\n]\n\nProduce Cedar."}
+{"input":"Telemedicine platform.\nRequirements:\n[\n  \"Patient can book Appointments\",\n  \"Doctor can conduct Sessions\",\n  \"Admin can cancel Appointments\"\n]\n\nGenerate Cedar."}
+{"input":"Prescription system.\nRequirements:\n[\n  \"Doctor can issue Prescriptions\",\n  \"Pharmacist can fulfill Prescriptions\",\n  \"Admin can revoke Prescriptions\"\n]\n\nConvert to Cedar."}
+{"input":"Clinical trials system.\nRequirements:\n[\n  \"Researcher can view TrialData\",\n  \"Researcher can update TrialData\",\n  \"Admin can approve TrialResults\"\n]\n\nGenerate Cedar."}
+{"input":"LMS platform.\nRequirements:\n[\n  \"Student can view Courses\",\n  \"Student can submit Assignments\",\n  \"Instructor can grade Assignments\"\n]\n\nGenerate Cedar."}
+{"input":"Online course platform.\nRequirements:\n[\n  \"Instructor can create Courses\",\n  \"Student can enroll in Courses\",\n  \"Admin can remove Courses\"\n]\n\nConvert to Cedar."}
+{"input":"University system.\nRequirements:\n[\n  \"Student can register for Classes\",\n  \"Advisor can approve Registrations\",\n  \"Admin can manage Courses\"\n]\n\nGenerate Cedar."}
+{"input":"Assignment system.\nRequirements:\n[\n  \"Student can submit Work\",\n  \"Instructor can grade Work\",\n  \"Admin can delete Submissions\"\n]\n\nGenerate Cedar."}
+{"input":"Transcript system.\nRequirements:\n[\n  \"Student can view Transcript\",\n  \"Registrar can update Transcript\",\n  \"Admin can audit Transcripts\"\n]\n\nConvert to Cedar."}
+{"input":"E-commerce platform.\nRequirements:\n[\n  \"Buyer can place Orders\",\n  \"Seller can manage Products\",\n  \"Admin can cancel Orders\"\n]\n\nGenerate Cedar."}
+{"input":"Marketplace system.\nRequirements:\n[\n  \"Vendor can list Items\",\n  \"Customer can purchase Items\",\n  \"Admin can remove Listings\"\n]\n\nGenerate Cedar."}
+{"input":"Inventory system.\nRequirements:\n[\n  \"Staff can update Stock\",\n  \"Manager can view Inventory\",\n  \"Admin can delete Products\"\n]\n\nConvert to Cedar."}
+{"input":"Order fulfillment system.\nRequirements:\n[\n  \"Worker can process Orders\",\n  \"Manager can assign Orders\",\n  \"Admin can cancel Orders\"\n]\n\nGenerate Cedar."}
+{"input":"Review system.\nRequirements:\n[\n  \"User can create Reviews\",\n  \"User can edit their Reviews\",\n  \"Admin can delete any Review\"\n]\n\nGenerate Cedar."}
+{"input":"Multiplayer game system.\nRequirements:\n[\n  \"Player can join Matches\",\n  \"Player can view their Stats\",\n  \"Admin can ban Players\"\n]\n\nGenerate Cedar."}
+{"input":"Ride sharing platform.\nRequirements:\n[\n  \"Rider can request Rides\",\n  \"Driver can accept Rides\",\n  \"Admin can cancel Rides\"\n]\n\nConvert to Cedar."}
+{"input":"Food delivery system.\nRequirements:\n[\n  \"Customer can place Orders\",\n  \"Courier can deliver Orders\",\n  \"Admin can cancel Orders\"\n]\n\nGenerate Cedar."}
+{"input":"Smart home system.\nRequirements:\n[\n  \"User can control Devices\",\n  \"Owner can grant access to Devices\",\n  \"Admin can revoke access\"\n]\n\nGenerate Cedar."}
+{"input":"IoT management platform.\nRequirements:\n[\n  \"User can view Devices\",\n  \"User can update Device settings\",\n  \"Admin can disable Devices\"\n]\n\nConvert to Cedar."}
